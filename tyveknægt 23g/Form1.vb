@@ -5,7 +5,7 @@
 
     Private Sub Label1_Click(sender As Object, e As EventArgs) Handles Label1.Click
 
-        'My.Computer.Audio.Play("C:\Users\gm\source\repos\tyveknægt 23g\tyveknægt 23g\Resources\Cha_Ching_Register-Muska666-173262285.wav", AudioPlayMode.Background)
+        My.Computer.Audio.Play("C:\Users\gm\source\repos\tyveknægt 23g\tyveknægt 23g\Resources\Cha_Ching_Register-Muska666-173262285.wav", AudioPlayMode.Background)
         saldo -= 2
         gevinst = 0
         Lbl_Saldo.Text = saldo
